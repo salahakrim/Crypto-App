@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Layout, Menu } from 'antd'
 import { iconStyle } from '../../styles'
 import { HomeOutlined, InfoCircleOutlined, GithubOutlined, AreaChartOutlined } from '@ant-design/icons'
-import logoImage from '../../images/logo/logo.png'
+import logoImage from '../../images/logo/bitcoin-removebg.png'
 import { connect } from 'react-redux'
 import { setHeaderMenuItem } from '../../redux_actions'
 
@@ -45,7 +45,7 @@ class ReactHeader extends Component {
               </Link>
             </Menu.Item>
             <Menu.Item key="source">
-              <a rel="noopener noreferrer" target="_blank" href="https://github.com/danielc92/react-crypto-app">
+              <a rel="noopener noreferrer" target="_blank" href="https://github.com/salahakrim/Crypto-App">
                 <GithubOutlined style={iconStyle}/>Source
               </a>
             </Menu.Item>
